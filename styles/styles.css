@@ -5,8 +5,12 @@
 }
 
 main{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(../75.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dibujo-ahorcado{
@@ -19,4 +23,13 @@ main{
 
 .botones{
     background-color: lightblue;
+}
+
+.output{
+    letter-spacing: 10px;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
 }
